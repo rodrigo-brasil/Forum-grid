@@ -26,6 +26,7 @@ body {
 
 button, a {
     cursor: pointer;
+    color: inherit;
 }
 
 .root {
@@ -63,7 +64,7 @@ header .title {
     font-size: 1.5rem;
     font-family: Rajdhani, sans-serif;
     font-weight: 600;
-    margin: 0 1em;
+    justify-self: flex-start;
 }
 
 header .title span:last-of-type {
@@ -328,7 +329,6 @@ footer {
 }
 
 footer a {
-    color: inherit;
     font-size: 2rem;
     margin-left: 1.5rem;
 }
@@ -351,12 +351,13 @@ footer a:hover {
         color: var(--brand);
     }
     .left-side:hover .menu-logo .logo-text {
-        left: 0px;
+        left: 0px;       
     }
 }
 
-/* OTDO telas menores 730px */
+/* TODO telas menores 730px */
 
 /* @media only screen and (max-width: 730px) {
 
 } */
+
