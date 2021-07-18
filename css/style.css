@@ -54,7 +54,7 @@ header .logo {
     font-weight: 700;
 }
 
-header .logo span:first-of-type {
+header .logo a span:first-of-type {
     color: #cb1e40
 }
 
@@ -64,7 +64,8 @@ header .title {
     font-size: 1.5rem;
     font-family: Rajdhani, sans-serif;
     font-weight: 600;
-    justify-self: flex-start;
+    display: inline-block;
+    margin-left: 1rem;
 }
 
 header .title span:last-of-type {
@@ -72,6 +73,7 @@ header .title span:last-of-type {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 700;
 }
 
 /* Usuario */
