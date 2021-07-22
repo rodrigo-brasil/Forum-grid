@@ -31,7 +31,7 @@ button, a {
 
 .root {
     display: grid;
-    grid-template: 70px calc(100vh - 130px) 60px / auto 1fr;
+    grid-template: 70px calc(100vh - 125px) 55px / auto 1fr;
     min-height: 100vh;
 }
 
@@ -339,7 +339,7 @@ footer a:hover {
     color: var(--brand);
 }
 
-/* Ta funcionando até telas de 730px */
+/* em telas acima de 730px */
 @media only screen and (min-width: 730px) {
     .left-side:hover {
         width: 16rem;
